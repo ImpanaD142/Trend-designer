@@ -1,0 +1,138 @@
+.iphone-1415-pro-max-4 .rectangle-7 {
+  background: url('../assets/images/rectangle_7.png')50% / cover no-repeat, url('../assets/images/rectangle_51.jpeg') 50% / cover no-repeat, url('../assets/images/rectangle_51.jpeg') 50% / cover no-repeat;
+  margin-bottom: 2px;
+  width: 56px;
+  height: 55px;
+}
+.iphone-1415-pro-max-4 .rectangle-22 {
+  background: url('../assets/images/rectangle_21.jpeg') 50% / cover no-repeat;
+  width: 67px;
+  height: 57px;
+}
+.iphone-1415-pro-max-4 .container-5 {
+  margin: 0 21px 155px 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 33px);
+  box-sizing: border-box;
+}
+.iphone-1415-pro-max-4 .describe-the-need {
+  overflow-wrap: break-word;
+  font-family: 'Jolly Lodger';
+  font-weight: 400;
+  font-size: 40px;
+  color: #000000;
+}
+.iphone-1415-pro-max-4 .container-2 {
+  background: #F5F5F5;
+  position: relative;
+  margin: 0 5px 38px 5px;
+  padding: 0 37px 10px 37px;
+  width: calc(100% - 10px);
+  box-sizing: border-box;
+}
+.iphone-1415-pro-max-4 .xyz {
+  overflow-wrap: break-word;
+  font-family: 'JejuMyeongjo';
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+.iphone-1415-pro-max-4 .container-1 {
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #F86FD6;
+  position: relative;
+  margin: 0 10px 66px 9px;
+  padding: 10px 29px 0 29px;
+  width: calc(100% - 19px);
+  height: 230px;
+  box-sizing: border-box;
+}
+.iphone-1415-pro-max-4 .submit {
+  overflow-wrap: break-word;
+  font-family: 'Jolly Lodger';
+  font-weight: 400;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.iphone-1415-pro-max-4 .container {
+  border-radius: 30px;
+  background: #E70B9A;
+  position: relative;
+  margin: 0 41px 169px 41px;
+  display: flex;
+  padding: 5px 24.9px 0 0;
+  width: 177px;
+  box-sizing: border-box;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.container:hover {
+  transform: scale(1.05); /* Scale up on hover for a dynamic effect */
+}
+
+.iphone-1415-pro-max-4 .rectangle-2 {
+  background: url('../assets/images/rectangle_2.png') 50% / cover no-repeat;
+  margin: 5px 25px 0 0;
+  height: 65px;
+  flex-grow: 1;
+  flex-basis: 65px;
+}
+.iphone-1415-pro-max-4 .rectangle-3 {
+  background: url('../assets/images/rectangle_51.jpeg') 50% / cover no-repeat, url('../assets/images/rectangle_51.jpeg') 50% / cover no-repeat, url('../assets/images/rectangle_51.jpeg') 50% / cover no-repeat;
+  margin: 3px 34px 0 0;
+  height: 67px;
+  flex-grow: 1;
+  flex-basis: 59px;
+}
+.iphone-1415-pro-max-4 .rectangle-8 {
+  background: url('../assets/images/rectangle_8.png')50% / cover no-repeat, url('../assets/images/rectangle_51.jpeg') 50% / cover no-repeat, url('../assets/images/rectangle_51.jpeg') 50% / cover no-repeat;
+  width: 62px;
+  height: 68px;
+}
+.iphone-1415-pro-max-4 .container-3 {
+  background: url('../assets/images/rectangle_8.png');
+  position: relative;
+  margin: 0 25px 2px 0;
+  display: flex;
+  height: 68px;
+  flex-grow: 1;
+  flex-basis: 62px;
+  box-sizing: border-box;
+}
+.iphone-1415-pro-max-4 .rectangle-5 {
+  background: url('../assets/images/rectangle_5.jpeg') 50% / cover no-repeat, url('../assets/images/rectangle_51.jpeg') 50% / cover no-repeat, url('../assets/images/rectangle_51.jpeg') 50% / cover no-repeat;
+  margin: 3px 16px 0 0;
+  height: 67px;
+  flex-grow: 1;
+  flex-basis: 63px;
+}
+.iphone-1415-pro-max-4 .rectangle-6 {
+  background: url('../assets/images/rectangle_6.jpeg')50% / cover no-repeat, url('../assets/images/rectangle_51.jpeg') 50% / cover no-repeat, url('../assets/images/rectangle_51.jpeg') 50% / cover no-repeat;
+  height: 70px;
+  flex-grow: 1;
+  flex-basis: 62px;
+}
+.iphone-1415-pro-max-4 .container-4 {
+  background: #FFFAFA;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 10px 11px 9px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.iphone-1415-pro-max-4 {
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column; /* Ensure children are stacked vertically */
+  justify-content: flex-end; /* Align items to the bottom of the container */
+  align-items: center; /* Center items horizontally */
+  box-sizing: border-box;
+  width: 430px;
+  height: 932px;
+  position: relative; /* Ensure positioning context for absolute positioning */
+}

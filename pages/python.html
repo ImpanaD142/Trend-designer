@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>idk</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css">
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+    <p id="res"></p>
+    <script>
+        var data = window.location.search;
+        var params = new URLSearchParams(data);
+        console.log(params);
+        var inp = params.get("inputField");
+    
+        var UserInput = inp.toLowerCase(); // Convert input to lowercase for case-insensitivity
+    
+        switch (UserInput) {
+            case "party":
+                window.location.href = "party.html";
+                break;
+            case "casual":
+                window.location.href = "casual.html";
+                break;
+            case "sports":
+                window.location.href = "sports.html";
+                break;
+            default:
+                window.location.href = "other.html";
+                break;
+        }
+    </script>
+    
+    <py-script>
+        import js
+        UserInput=js.UserInput
+        print(UserInput+" extracted from web page is stored in this file but since py-script doesnt support database connectivity.\n The stored data and images in database must e further manipulated to produce the outfit.\n This can be achived by matching the analysed data stored in database along with image and thereby selecting outfit and displaying to the user ")
+
+
+    </py-script>
+</body>
+</html>
