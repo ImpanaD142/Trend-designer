@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Image Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>AI Image Analyzer</h1>
+    <form>
+      <div class="image-picker">
+        <input type="file" id="fileInput" name="file">
+      </div>
+      <div class="prompt-box">
+        <label>
+          <input name="prompt" placeholder="Enter instructions here" type="text"
+            value="Give the details of which clothing item(shirt,tshirt,top,skirt,pant,jacket,blazer), style, occasion(formals,casuals,(if its shiny,its party)party,sports), colour, pattern,matches with color,matches with clothing(if its dress,then null), (in form of attribute name: value)">
+        </label>
+        <button type="submit">Go</button>
+      </div>
+    </form>
+    <button id="downloadCsvBtn" style="display: none;">Download CSV</button>
+    <p class="output">(Results will appear here)</p>
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
